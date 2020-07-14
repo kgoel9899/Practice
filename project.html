@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Favorite superhero</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">​
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="container1">
+	<!-- <div class="col-xs-10 col-md-4 bor">Column 1</div>
+    <div class="col-xs-2 col-md-8 bor">Column 2</div> -->
+	<div id="header">
+		<a href="#" class="logo">
+			<img src="img/bat_logo.png" alt="Batman Logo">
+		</a>
+		<nav>
+			<ul>
+				<li><a href="#villians">Villians</a></li>
+				<li><a href="#identity">Secret Identity</a></li>
+				<li><a href="#movies">Movies</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="background-image">
+		<center>
+			<div id="content">
+				<h1>Batman</h1>
+				<h4> A silent guardian, A watchful protector. A dark knight. </h4>
+			</div>
+		</center>
+	</div>
+	<p>Batman is a fictional comic character created by artist Bob Kane and writer Bill Finger. <br>
+	Batman first appeared in DC comics in the year 1939 and soon became popular. </p>
+	<div id="lists">
+		<div id="right" class="box">
+			<h2>Abilities</h2>
+			<ul>
+				<li>Genius-level intellect</li>
+				<li>Peak human physical and mental conditioning</li>
+				<li>Expert martial artist and hand-to-hand combatant</li>
+				<li>Expert detective</li>
+				<li>Utilizes high-tech equipment and weapons</li>
+			</ul>
+		</div>
+		<div id="left" class="box">
+			<h2>Partnerships</h2>
+			<ol>
+				<li>Robin</li>
+				<li>Batgirl</li>
+				<li>James "Jim" Gordon</li>
+				<li>Green Arrow</li>
+				<li>Catwoman</li>
+				<li>Superman</li>
+				<li>Wonder Woman</li>
+			</ol>
+		</div>
+	</div>
+	<div id="identity">
+		<h2>Secret Identity: Bruce Wayne</h2>
+		<img src="img/wayne.png" alt="Bruce Wayne" id="image">
+		<p>Batman's secret identity is Bruce Wayne, a wealthy American industrialist who resides just outside of Gotham City. As a child, Bruce witnessed the murder of his parents, Thomas Wayne and Martha Wayne, which ultimately led him to craft the Batman persona and seek vengeance against criminals. Wayne averts suspicion by acting the part of a superficial playboy idly living off his family's fortune, which was amassed through investment in real estate before the city became a bustling metropolis, and the profits of Wayne Enterprises, his inherited conglomerate. Bruce Wayne resides just outside of Gotham City in Wayne Manor. He supports philanthropic causes through his nonprofit Wayne Foundation but is more widely known as a celebrity socialite. In public, he appears frequently in the company of high-status women, which encourages tabloid gossip. Although Bruce Wayne leads an active romantic life, crime-fighting accounts for most of his time.</p>
+	</div>
+	<div id="movies">
+		<h2>Batman Movies</h2>
+		<div class="thumbnail" > 
+			<img src="img/batman_begins.jpg" alt="Bruce Wayne">
+			<h4> Batman Begins <br> (2005) </h4>
+		</div>
+		<div class="thumbnail">
+			<img src="img/dark_knight.jpg" alt="Bruce Wayne"  />
+			<h4> The Dark Knight Begins <br> (2008) </h4>
+		</div>
+		<div class="thumbnail">
+			<img src="img/dark_knight_r.jpg" alt="Bruce Wayne" >
+			<h4> The Dark Knight Rises <br> (2012) </h4>
+		</div>
+	</div>
+	<div id="villians">
+		<h2>Batman Villians</h2>
+		<div class="table table-responsive">
+			<table class="table table-striped table-bordered table-hover">
+				<tbody>
+					<tr>
+						<th>NAME</th>
+						<th>FIRST APPEARANCE</th>
+						<th>ABILITIES</th>
+					</tr>
+					<tr>
+						<td>Joker</td>
+						<td>Batman #1 (April 1940)</td>
+						<td>Criminal mastermind, expert chemist, utilizes weaponized props and toxins</td>
+					</tr>
+					<tr>
+						<td>Ra’s al Ghul</td>
+						<td>Batman #232 (June 1971)</td>
+						<td>Genius-level intellect, peak physical conditioning, superior strength and stamina, master martial artist and hand-to-hand combatant for centuries</td>
+					</tr>
+					<tr>
+						<td>Two face</td>
+						<td>Detective Comics #66 (August 1942)</td>
+						<td>Schizoid criminal mastermind obsessed with duality, extensive knowledge in law, experienced hand-to-hand combatant and detective</td>
+					</tr>
+					<tr>
+						<td>Bane</td>
+						<td>Batman: Vengeance of Bane 1 (January 1993)</td>
+						<td>Brilliant military strategist, trained mercenary, peak human physical conditioning, venom enhanced strength and durability</td>
+					</tr>
+					<tr>
+						<td>Black Mask</td>
+						<td>Batman #386 (August 1985)</td>
+						<td>Brilliant tactician and strategist, crime boss with powerful underworld connections, skilled marksman, advanced stamina and endurance</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div id="newsletter">
+		<center>
+			<h4>Subscribe to our newsletters</h4>
+			<form>
+				<input type="text" name="message">
+				<input type="submit" value="Subscribe" id="subscribe">
+			</form>
+		</center>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<form class="form-inline">
+					<div class="form-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text"  class="form-control" id="firstname" name="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">Last Name</label>
+                        <input type="text"  class="form-control" name="lastname" id="lastname">
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-success btn-block">
+				</form>
+				<form>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="food" value="coffee" checked> Coffee
+						</label>
+						<label>
+							<input type="checkbox" name="food" value="biscuit"> Biscuit
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" name="food" value="coffee"> Coffee
+						</label>
+						<label>
+							<input type="radio" name="food" value="biscuit"> Biscuit
+						</label>
+					</div>
+					<div class="form-group">
+						<select class="form-control">
+							<option>1</option>
+							<option>2</option>
+						</select>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h4>Panel</h4>
+					</div>
+					<div class="panel-body">
+						<p>Panel</p>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+					<div class="panel-footer">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class='row'>
+    <div class='col-xs-3'>1</div>
+    <div class='col-xs-4 col-md-offset-4'>2</div>
+    <div class='col-xs-2'>3</div>
+    <div class='col-xs-5'>4</div> -->
+</div>
+
+</body>
+</html>
+
+
+
+
+<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<a href="#" class="thumbnail">
+					<img src="img/camera.jpg" class="img-responsive">
+					<div class="caption">
+						<h2>Cameras</h2>
+						<p>Choose among the best available in the world.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#" class="thumbnail">
+					<img src="img/watch.jpg" class="img-responsive">
+					<div class="caption">
+						<h2>Watches</h2>
+						<p>Original watches from the best brands.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#" class="thumbnail">
+					<img src="img/shirt.jpg" class="img-responsive">
+					<div class="caption">
+						<h2>Shirts</h2>
+						<p>Our exquisite collection of shirts.</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
